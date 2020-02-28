@@ -1,0 +1,7 @@
+## kNN document classification
+
+These code fragments were created as part of an assignment for a course in machine learning. The input is a labelled list of documents, each of which has a bag of words as its features. The output is predicted labels for test documents.
+
+## Format
+
+This program takes five command line arguments: a file containing the training data (in svm-light format), a file containing the test data (in svm-light format), an integer representing the value of k, a similarity function (1 for Euclidean or 2 for cosine), and a filename for the results. The program prints a confusion matrix upon completion.
